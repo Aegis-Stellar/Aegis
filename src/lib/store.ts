@@ -4,7 +4,7 @@ import { initialSafes } from "@/lib/mock-data"
 /**
  * A tiny reactive in-memory store backed by useSyncExternalStore.
  * Stands in for live Stellar contract state — every mutation here would
- * map to a `useContract` call against the Quorum Soroban contract.
+ * map to a `useContract` call against the Aegis Soroban contract.
  */
 
 interface State {

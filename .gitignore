@@ -13,3 +13,13 @@ __v0_jsx-dev-runtime.ts
 node_modules
 .next/
 .DS_Store
+
+# Vite
+dist/
+
+# Rust / Soroban build artifacts
+contracts/quorum/target/
+
+# Generated bindings build output
+src/contracts/quorum/dist/
+src/contracts/quorum/node_modules/

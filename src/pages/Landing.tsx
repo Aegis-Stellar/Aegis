@@ -32,7 +32,7 @@ export function Landing() {
               <span className="text-primary">governance transparency</span>
             </h1>
             <p className="mx-auto mt-6 max-w-xl text-pretty text-lg leading-relaxed text-muted-foreground">
-              Quorum is a multisig safe for DAOs and teams on Stellar. Set thresholds,
+              Aegis is a multisig safe for DAOs and teams on Stellar. Set thresholds,
               see exactly who approved every move, and grant native spending policies
               without weakening your treasury.
             </p>
@@ -136,12 +136,12 @@ export function Landing() {
       <section className="border-y border-border bg-card/40">
         <div className="mx-auto grid max-w-7xl items-center gap-12 px-4 py-20 sm:px-6 lg:grid-cols-2">
           <div>
-            <Badge className="mb-4">What sets Quorum apart</Badge>
+            <Badge className="mb-4">What sets Aegis apart</Badge>
             <h2 className="text-balance text-3xl font-bold tracking-tight sm:text-4xl">
               Allowances that don&apos;t compromise the threshold
             </h2>
             <p className="mt-4 text-pretty leading-relaxed text-muted-foreground">
-              Operations move fast; treasuries shouldn&apos;t. Quorum lets a DAO grant a
+              Operations move fast; treasuries shouldn&apos;t. Aegis lets a DAO grant a
               contributor a recurring allowance they can spend as a single signer — while
               treasury-level moves still require the full multisig. It&apos;s built natively
               into the core contract, not bolted on as a module.
@@ -195,7 +195,7 @@ export function Landing() {
           <p className="text-xs text-muted-foreground">
             Built on Stellar · Soroban smart contracts · Non-custodial
           </p>
-          <p className="text-xs text-muted-foreground">© {new Date().getFullYear()} Quorum</p>
+          <p className="text-xs text-muted-foreground">© {new Date().getFullYear()} Aegis</p>
         </div>
       </footer>
     </div>

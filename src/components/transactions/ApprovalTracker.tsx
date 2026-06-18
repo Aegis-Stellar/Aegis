@@ -10,7 +10,7 @@ interface ApprovalTrackerProps {
 
 /**
  * Shows exactly who has approved and who hasn't — the governance-transparency
- * feature at the heart of Quorum.
+ * feature at the heart of Aegis.
  */
 export function ApprovalTracker({ safe, tx, currentUser }: ApprovalTrackerProps) {
   const approvedCount = tx.approvals.length

@@ -1,15 +1,18 @@
 {
-  "name": "my-project",
+  "name": "aegis",
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start",
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "dev:next": "next dev",
     "lint": "eslint ."
   },
   "dependencies": {
     "@base-ui/react": "^1.5.0",
+    "@creit.tech/stellar-wallets-kit": "^2.3.0",
+    "@stellar/stellar-sdk": "^16.0.0",
     "@vercel/analytics": "1.6.1",
     "class-variance-authority": "^0.7.1",
     "clsx": "^2.1.1",
@@ -27,13 +30,27 @@
     "@types/node": "^24",
     "@types/react": "^19",
     "@types/react-dom": "^19",
+    "@vitejs/plugin-react": "^6.0.2",
     "postcss": "^8.5",
     "tailwindcss": "^4.2.0",
-    "typescript": "5.7.3"
+    "typescript": "5.7.3",
+    "vite": "^8.0.16"
   },
   "pnpm": {
     "overrides": {
       "hono": "4.12.25"
-    }
+    },
+    "onlyBuiltDependencies": [
+      "@stellar/stellar-sdk",
+      "blake-hash",
+      "bufferutil",
+      "secp256k1",
+      "tiny-secp256k1",
+      "utf-8-validate",
+      "protobufjs",
+      "sharp",
+      "usb",
+      "msw"
+    ]
   }
 }
